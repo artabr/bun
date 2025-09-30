@@ -267,7 +267,7 @@ To read the file, make a new file called `readFile.ts` or whatever you want it t
 
 ```ts
 const readFlie = Bun.file("writeFile.txt");
-console.log(await readFlie.text());
+console.log(await readFile.text());
 ```
 
 ```bash

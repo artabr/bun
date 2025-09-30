@@ -11,5 +11,5 @@ async function fetchUser(user: string) {
 }
 
 fetchUser('milliorn')
-  .then(data => console.log('User data:', data))
-  .catch(error => console.error('Error:', error));
+  .then((data) => console.log('User data:', data))
+  .catch((error) => console.error('Error:', error));
